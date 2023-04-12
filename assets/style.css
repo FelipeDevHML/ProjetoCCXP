@@ -19,7 +19,7 @@ header {
 main{
 	display: grid;
 	grid-auto-flow: column;
-	grid-auto-columns: 45% auto;
+	grid-auto-columns: 46.41% auto;
 	text-align: center;
 }
 	#description{
@@ -33,8 +33,8 @@ main{
 	}
 		#description h1{
 			color: #F3C61F;
-			font-family: Verdana;
-			font-size: 69px;
+
+			font-size: 70px;
 			line-height: 85px;
 			letter-spacing: 0em;
 		}
@@ -43,6 +43,7 @@ main{
 			font-weight: 700;
 			line-height: 36px;
 			letter-spacing: 0em;
+
 			text-align: center;
 		}
 		#description p {
@@ -50,6 +51,33 @@ main{
 			font-size: 29px;
 			line-height: 35px;
 		}
+	.timer{
+		padding-top: 30px;
+		padding-right: 60px;
+		padding-left: 45px;
+		font-weight: 700;
+		font-size: 70px;
+		line-height: 85px;
+
+		display: flex;
+		justify-content: left;
+		color: #514988;
+	}
+		.countdown{
+			padding-right: 3rem;
+		}
+	#video p{
+		padding-left: 45px;
+		padding-bottom: 1rem;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 36px;
+
+		align-items: center;
+		text-align: left;
+		color: #E33881;
+	}
+	
 	#video video{
-		width: 100%;
+		width: 97%;
 	}
