@@ -28,3 +28,12 @@ function formatoTempo(tempo){
 
 countDown()
 setInterval(countDown, 1000)
+
+const btnGarantaSeu = document.getElementById("btnGaranta")
+
+btnGarantaSeu.onmouseenter = () => {
+	btnGarantaSeu.style.backgroundColor = "#F3C61F"
+}
+btnGarantaSeu.onmouseout = () => {
+	btnGarantaSeu.style.backgroundColor = "#514988"
+}
