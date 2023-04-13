@@ -9,11 +9,8 @@ header {
 	width: 100%;
 }
 	header img{
-		/* position: absolute; */
 		width: 202px;
-		/* height: 63px; */
 		padding: 2rem 0rem 2rem 5rem;
-		/* top: 27px; */
 	}
 
 main{
@@ -64,7 +61,7 @@ main{
 		color: #514988;
 	}
 		.countdown{
-			padding-right: 3rem;
+			padding-right: 4rem; /* Espaçamento entre os dígitos do contador */
 		}
 	#video p{
 		padding-left: 45px;
@@ -81,3 +78,35 @@ main{
 	#video video{
 		width: 97%;
 	}
+
+footer p{
+	color: #F3C61F;
+	
+	font-weight: bold;
+	font-size: 27px;
+	padding: 15px 0px 15px 89px;
+}
+footer div{
+	display: flex;
+	align-items: center;
+}
+footer img{
+	width: 204px;
+	padding-bottom: 38px;
+}
+	footer img#qui{
+		padding-left: 81px;
+	}
+footer #btnGaranta{
+	background: #514988;
+	color: #FFFFFF;
+
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+
+	width: 596px;
+	height: 148px;
+	border-radius: 20px;
+	margin: 0px 0px 38px 107px;
+}
